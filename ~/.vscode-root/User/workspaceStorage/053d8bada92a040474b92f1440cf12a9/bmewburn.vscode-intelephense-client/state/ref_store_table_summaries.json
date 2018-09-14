@@ -1,0 +1,7 @@
+[
+{"uri":"file:///var/www/html/datastructure/olinklist.php","identifiers":["linkedlist","fopen","feof","fgetc","explode","sizeof","insertlast","readlist","count","readline","sort","fwrite","fclose"]}
+,
+{"uri":"file:///var/www/html/datastructure/uolinklist.php","identifiers":["linkedlist","fopen","feof","fgetc","explode","sizeof","insertlast","readlist","count","readline","deletenode","fread","filesize","str_replace","fwrite","fclose"]}
+,
+{"uri":"file:///var/www/html/datastructure/utility.php","identifiers":["listnode","$data","$next","__construct","null","readnode","linkedlist","$firstnode","$lastnode","$count","isempty","insertfirst","deletenode1","insertlast","readlist","deletenode","sort"]}
+]

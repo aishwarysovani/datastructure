@@ -1,0 +1,25 @@
+Using: {
+	"enabled": false,
+	"showOutput": false,
+	"autoClearConsole": false,
+	"shell": "",
+	"commands": [
+		{
+			"enabled": false,
+			"include": "\\.[tj]sx?$",
+			"exclude": "/node_modules/",
+			"pre": "eslint_d --fix ${tmpFile}",
+			"post": "echo saved ${relname}",
+			"useTempFile": true,
+			"isAsync": false
+		},
+		{
+			"enabled": false,
+			"include": "\\.go$",
+			"useTempFile": false,
+			"pre": "goimports",
+			"post": "echo saved ${relname}",
+			"isAsync": false
+		}
+	]
+}

@@ -1,0 +1,9 @@
+[Info  - 9:15:58 AM] 3 files total
+[Info  - 9:15:58 AM] Indexing project for definitions and static references
+Parsing file:///var/www/html/datastructure/uolinklist.php
+Parsing file:///var/www/html/datastructure/olinklist.php
+[Info  - 9:15:59 AM] Indexing project for dynamic references
+Parsing file:///var/www/html/datastructure/uolinklist.php
+Parsing file:///var/www/html/datastructure/olinklist.php
+[Info  - 9:15:59 AM] 0 Packages
+[Info  - 9:15:59 AM] All 3 PHP files parsed in 0 seconds. 140 MiB allocated.

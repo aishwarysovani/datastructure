@@ -14,7 +14,7 @@ for ($i = 0; $i < sizeof($name); $i++) {
 }
 $mydata = $listlink->readList();
 $store = $mydata;
-echo "------------read a file---------------\n";
+echo "-----read a file----------\n";
 for ($i = 0; $i < count($mydata); $i++) {
     echo $mydata[$i] . " ";
 }

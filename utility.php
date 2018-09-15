@@ -38,8 +38,8 @@ class LinkedList
         {
             $this->lastnode = &$link;
         }
-        // if assign current obj adress to last node
-        $this->count++; //count nodes
+        
+        $this->count++; 
     }
     public function deleteNode1($key)
     {
@@ -144,8 +144,241 @@ class LinkedList
         }
     }
 
+    public function readListInList()
+    {
+        $current = $this->firstnode;
+        while ($current != null) {
+            echo $current->readNode() . " ";
+            $current = $current->next;
+        }
+        echo "\n";
+    }
+    public function addToFile($filename)
+    {
+        $fh = fopen($filename, 'a');
+        $current = $this->firstnode;
+        while ($current != null) {
+            $Data = $current->readNode() . " ";
+            fwrite($fh, $Data);
+            $current = $current->next;
+        }
+        fclose($fh);
+        echo "\n";
+    }
     
+    public function getInt()
+    {
+        $num = readline();
+        if (filter_var($num, FILTER_VALIDATE_INT) && (preg_match('/[0-9]/', $num))) {
+            return $num;
+        } else {
+            echo "enter valid number  \n";
+            return $this->getInt();
+        }
+    }
+}
+
+
+class Stack
+{
+    public $top;
+    public $stackArray = array();
+    public function __construct()
+    {
+        $this->top = -1;
+    }
+    public function push($element)
+    {
+        $this->top = $this->top + 1;
+        $this->stackArray[$this->top] = $element;
+    }
+    public function pop()
+    {
+        if ($this->isEmpty()) {
+            return true;
+        }
+        $this->top = $this->top - 1;
+        return false;
+
+    }
+    public function isEmpty()
+    {
+        if ($this->top == -1) {
+
+            return true;
+        }
+        return false;
+    }
+    
+}
+
+
+class Element
+{
+    public $value;
+    public $next;
 
 }
+
+class Queue
+{
+    private $front = null;
+    private $back = null;
+    private $totalammount = 20000000;
+    public function isEmpty()
+    {
+        return $this->front == null;
+    }
+
+    public function getInt()
+    {
+        $num = readline();
+        if (filter_var($num, FILTER_VALIDATE_INT) && (preg_match('/[0-9]/', $num))) {
+            return $num;
+        } else {
+            echo "enter valid number  \n";
+            return $this->getInt();
+        }
+    }
+    public function enqueue($name)
+    {
+        $oldBack = $this->back;
+        $this->back = new Element();
+        $this->back->value = $name;
+        if ($this->isEmpty()) {
+            $this->front = $this->back;
+        } else {
+            $oldBack->next = $this->back;
+        }
+    }
+
+    public function dequeue()
+    {
+        if ($this->isEmpty()) {
+            return null;
+        }
+        $removedValue = $this->front->value;
+        echo "person name : " . $removedValue . "\n";
+        echo "enter the operation 1: deposite , 2 : withdraw , 3 :check balance \n";
+        $operation = $this->getInt();
+        if ($operation == 1 || $operation == 2) {
+            echo "enter the amount \n";
+            $amount = $this->getInt();
+        } else {
+            $amount = 0;
+        }
+
+        $this->cash($amount, $operation);
+        $this->front = $this->front->next;
+    }
+    public function cash($amount, $operation)
+    {
+        switch ($operation) {
+            case 1:
+                $this->totalammount = $this->totalammount + $amount;
+                echo "Deposited " . $amount . " into bank \n";
+                break;
+            case 2:
+                if ($amount <= $this->totalammount) {
+                    $this->totalammount = $this->totalammount - $amount;
+                    echo "Withdrawn " . $amount . " from bank \n";
+                } else {
+                    echo "Sorry no cash in bank ,see you next time \n";
+                }
+
+                break;
+            default:
+                echo "bank cash amount available is : " . $this->totalammount . "\n";
+                break;
+        }
+    }
+}
+
+
+class Node
+{
+    public $value;
+    public $next;
+    public $prev;
+    public function __construct($data)
+    {
+        $this->value=$data;
+        $this->next=null;
+        $this->prev=null;
+    }
+
+}
+
+class Dqueue
+{
+    private $front = null;
+    private $back = null;
+    private $size = 0;
+    
+    public function isEmpty()
+    {
+        return $this->front == null;
+    }
+    public function insertFirst($data)
+    {
+        $newobj = new Node($data);
+        if($this->front == null)
+        $this->back = $this->front = $newobj;
+        else{
+            $newobj->next=$this->front;
+            $this->front->prev=$newobj;
+            $this->front=$newobj;
+        }
+        $this->size++;
+    }
+    public function insertLast($data)
+    {
+        $newobj = new Node($data);
+        if($this->back == null)
+        $this->back = $this->front = $newobj;
+        else{
+            $newobj->back=$this->$back;
+            $this->back->next=$newobj;
+            $this->back=$newobj;
+        }
+        $this->size++;
+    }
+    public function deleteFront()
+    {
+        $temp =$this->front;
+        $this->front=$this->front->next;
+        if($this->front==null)
+        $this->back=null;
+        else
+        $this->front->prev=null;
+        $this->size--;
+        return $temp->value;
+    }
+    public function deleteLast()
+    {
+        $temp =$this->back;
+        $this->back=$this->back->prev;
+        if($this->back==null)
+        $this->front=null;
+        else
+        $this->back->next=null;
+        $this->size--;
+        return $temp->value;
+    }
+    public function getFront()
+    {
+        if($this->isEmpty())
+        return null;
+        echo "first value = " . $this->front->value . "\n";
+    }
+    public function getLast()
+    {
+        if($this->isEmpty())
+        return null;
+        echo "first value = " . $this->back->value . "\n";
+    }
+}
+
+
 
 ?>

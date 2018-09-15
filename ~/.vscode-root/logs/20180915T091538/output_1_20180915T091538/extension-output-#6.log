@@ -1,0 +1,29 @@
+[Info  - 9:15:40 AM] 13 files total
+[Info  - 9:15:40 AM] Indexing project for definitions and static references
+Parsing file:///var/www/html/algorithmic-master/anagram.php
+Parsing file:///var/www/html/algorithmic-master/tobinary.php
+Parsing file:///var/www/html/algorithmic-master/primeno.php
+Parsing file:///var/www/html/algorithmic-master/merge.php
+Parsing file:///var/www/html/algorithmic-master/vending.php
+Parsing file:///var/www/html/algorithmic-master/question.php
+Parsing file:///var/www/html/algorithmic-master/insersort.php
+Parsing file:///var/www/html/algorithmic-master/searchsort.php
+Parsing file:///var/www/html/algorithmic-master/palindrome.php
+Parsing file:///var/www/html/algorithmic-master/bubblesort.php
+Parsing file:///var/www/html/algorithmic-master/swapbinary.php
+Parsing file:///var/www/html/algorithmic-master/dayweek.php
+[Info  - 9:15:41 AM] Indexing project for dynamic references
+Parsing file:///var/www/html/algorithmic-master/anagram.php
+Parsing file:///var/www/html/algorithmic-master/tobinary.php
+Parsing file:///var/www/html/algorithmic-master/primeno.php
+Parsing file:///var/www/html/algorithmic-master/merge.php
+Parsing file:///var/www/html/algorithmic-master/vending.php
+Parsing file:///var/www/html/algorithmic-master/question.php
+Parsing file:///var/www/html/algorithmic-master/insersort.php
+Parsing file:///var/www/html/algorithmic-master/searchsort.php
+Parsing file:///var/www/html/algorithmic-master/palindrome.php
+Parsing file:///var/www/html/algorithmic-master/bubblesort.php
+Parsing file:///var/www/html/algorithmic-master/swapbinary.php
+Parsing file:///var/www/html/algorithmic-master/dayweek.php
+[Info  - 9:15:41 AM] 0 Packages
+[Info  - 9:15:41 AM] All 13 PHP files parsed in 0 seconds. 140 MiB allocated.

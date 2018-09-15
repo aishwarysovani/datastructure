@@ -1,0 +1,28 @@
+[2018-09-15 09:14:04.532] [exthost1] [info] extension host started
+[2018-09-15 09:14:04.550] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-09-15 09:14:04.550] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/out/extension
+[2018-09-15 09:14:04.635] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-09-15 09:14:04.635] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2018-09-15 09:14:04.710] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-09-15 09:14:04.710] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2018-09-15 09:14:05.440] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-09-15 09:14:05.440] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-09-15 09:14:05.473] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-09-15 09:14:05.473] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/search-rg/out/extension
+[2018-09-15 09:14:05.776] [exthost1] [info] ExtensionService#_doActivateExtension oneofone.save-runner {"startup":true,"activationEvent":"*"}
+[2018-09-15 09:14:05.776] [exthost1] [info] ExtensionService#loadCommonJSModule /home/bridgeit/.vscode/extensions/oneofone.save-runner-1.2.2/out/extension
+[2018-09-15 09:14:06.341] [exthost1] [info] ExtensionService#_doActivateExtension Sophisticode.php-formatter {"startup":true,"activationEvent":"*"}
+[2018-09-15 09:14:06.342] [exthost1] [info] ExtensionService#loadCommonJSModule /home/bridgeit/.vscode/extensions/sophisticode.php-formatter-0.2.4/out/extension
+[2018-09-15 09:14:06.424] [exthost1] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-09-15 09:14:06.424] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/php-language-features/out/phpMain
+[2018-09-15 09:14:06.528] [exthost1] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-09-15 09:14:06.528] [exthost1] [info] ExtensionService#loadCommonJSModule /home/bridgeit/.vscode/extensions/bmewburn.vscode-intelephense-client-0.8.8/out/src/extension
+[2018-09-15 09:14:06.894] [exthost1] [info] ExtensionService#_doActivateExtension felixfbecker.php-intellisense {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-09-15 09:14:06.894] [exthost1] [info] ExtensionService#loadCommonJSModule /home/bridgeit/.vscode/extensions/felixfbecker.php-intellisense-2.3.5/out/extension
+[2018-09-15 09:14:07.180] [exthost1] [info] ExtensionService#_doActivateExtension ikappas.phpcs {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-09-15 09:14:07.180] [exthost1] [info] ExtensionService#loadCommonJSModule /home/bridgeit/.vscode/extensions/ikappas.phpcs-1.0.5/out/src/extension
+[2018-09-15 09:14:07.280] [exthost1] [info] ExtensionService#_doActivateExtension kokororin.vscode-phpfmt {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-09-15 09:14:07.280] [exthost1] [info] ExtensionService#loadCommonJSModule /home/bridgeit/.vscode/extensions/kokororin.vscode-phpfmt-1.0.30/out/src/extension
+[2018-09-15 09:14:07.344] [exthost1] [info] ExtensionService#_doActivateExtension MehediDracula.php-constructor {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-09-15 09:14:07.344] [exthost1] [info] ExtensionService#loadCommonJSModule /home/bridgeit/.vscode/extensions/mehedidracula.php-constructor-0.0.10/src/extension
+[2018-09-15 09:14:09.782] [exthost1] [info] eager extensions activated

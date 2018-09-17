@@ -1,1 +1,1 @@
-Read file, splinto words and arrange as Linked List  aish , the
+Read file, splinto words and arrange Linked List  aish , the

@@ -482,12 +482,12 @@
         "lastActiveWindow": {
             "folderUri": {
                 "$mid": 1,
-                "fsPath": "/var/www/html/algorithmic-master",
-                "external": "file:///var/www/html/algorithmic-master",
-                "path": "/var/www/html/algorithmic-master",
+                "fsPath": "/var/www/html/datastructure",
+                "external": "file:///var/www/html/datastructure",
+                "path": "/var/www/html/datastructure",
                 "scheme": "file"
             },
-            "backupPath": "/var/www/html/datastructure/~/.vscode-root/Backups/0356ebeb72357977c948c01132468fd4",
+            "backupPath": "/var/www/html/datastructure/~/.vscode-root/Backups/9b7a7eaec85e260360074c8560cebc1b",
             "uiState": {
                 "mode": 1,
                 "x": 65,

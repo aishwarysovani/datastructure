@@ -1,0 +1,17 @@
+[Info  - 9:48:15 AM] 7 files total
+[Info  - 9:48:15 AM] Indexing project for definitions and static references
+Parsing file:///var/www/html/datastructure/uolinklist.php
+Parsing file:///var/www/html/datastructure/cashcounter.php
+Parsing file:///var/www/html/datastructure/palindrome.php
+Parsing file:///var/www/html/datastructure/utility.php
+Parsing file:///var/www/html/datastructure/olinklist.php
+Parsing file:///var/www/html/datastructure/balanparan.php
+[Info  - 9:48:16 AM] Indexing project for dynamic references
+Parsing file:///var/www/html/datastructure/uolinklist.php
+Parsing file:///var/www/html/datastructure/cashcounter.php
+Parsing file:///var/www/html/datastructure/palindrome.php
+Parsing file:///var/www/html/datastructure/utility.php
+Parsing file:///var/www/html/datastructure/olinklist.php
+Parsing file:///var/www/html/datastructure/balanparan.php
+[Info  - 9:48:16 AM] 0 Packages
+[Info  - 9:48:16 AM] All 7 PHP files parsed in 0 seconds. 140 MiB allocated.

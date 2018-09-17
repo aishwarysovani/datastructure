@@ -379,6 +379,115 @@ class Dqueue
     }
 }
 
+//function to calculate prime number
+function prime($t)
+{
+    if($t<=1)
+      return false;
+    for($i=2;$i<=sqrt($t);$i++)
+    {
+        if($t%$i==0)
+        {
+          return false;
+        }
+    }
+    return true;
+}
 
 
+//function for find out day of week
+function day($month,$day,$year) {
+    $y = $year - floor((14 - $month) / 12);
+    $y=(int)$y;
+    $x = $y + floor($y/4) - floor($y/100) + floor($y/400);
+    $x=(int)$x;
+    $m = $month + (12 * floor((14 - $month) / 12)) - 2;
+    $m=(int)$m;
+    $d = ($day + $x + floor((31*$m)/12)) % 7;
+    $d=(int)$d;
+    return $d;
+}
+
+//class for deque
+class node1  {
+	public $next;
+    public $key;
+}
+class queue1 {
+	private $front = null;
+    private $back = null;
+ public function isEmpty()
+    {
+        return $this->front == null;
+    }
+
+function  Dqueue() {
+	if ($this->isEmpty()) {
+		return null;
+	}
+	$value = $this->front->key;
+	$this->front = $this->front->next;
+	return $value;
+}
+function  Enqueue($data) {
+    $old= $this->back;
+	$this->back = new node1();
+    $this->back->key=$data;
+	if ($this->isEmpty()) {
+		$this->front =$this->back;
+	} else {
+		$old->next = $this->back;
+	}
+}
+}
+
+
+
+//function for leap year
+function isLeapYear($year) {
+    if  (($year % 4 == 0) && ($year % 100 != 0)) 
+        return true;
+    if  ($year % 400 == 0) 
+        return true;
+    return false;
+}
+
+
+
+//function for queue in stack calender class
+class node2 {
+	public $next;
+    public $element;
+}
+class Stack1 {
+	private $front=null;
+    private $back=null;
+
+function push($data){
+    $old=$this->back;
+    $this->back= new node2();
+    $this->back->element=$data;
+	if ($this->isEmpty()) {
+		$this->front = $this->back;
+	} else {
+        $old->next = $this->back;
+	}
+	return true;
+
+}
+
+function pop() {
+	if($this->isEmpty()) {
+		return null;
+	}
+	$value = $this->front->element;
+	$this->front = $this->front->next;
+	return $value;
+}
+
+public function isEmpty()
+{
+    return $this->front == null;
+}
+}
 ?>

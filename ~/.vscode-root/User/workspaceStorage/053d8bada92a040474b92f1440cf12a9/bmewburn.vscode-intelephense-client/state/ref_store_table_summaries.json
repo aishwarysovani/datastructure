@@ -1,7 +1,15 @@
 [
-{"uri":"file:///var/www/html/datastructure/olinklist.php","identifiers":["linkedlist","fopen","feof","fgetc","explode","sizeof","insertlast","readlist","count","readline","sort","fwrite","fclose"]}
+{"uri":"file:///var/www/html/datastructure/balanparan.php","identifiers":["stack","readline","strlen","true","push","isempty","false","pop"]}
+,
+{"uri":"file:///var/www/html/datastructure/cashcounter.php","identifiers":["queue","readline","enqueue","isempty","dequeue"]}
+,
+{"uri":"file:///var/www/html/datastructure/hashfunction.php","identifiers":["linkedlist","count","null","fopen","feof","fgetc","explode","sizeof","insertlast","readlistinlist","getint","deletenode1","fread","filesize","str_replace","fwrite","fclose"]}
+,
+{"uri":"file:///var/www/html/datastructure/olinklist.php","identifiers":["linkedlist","fopen","feof","fgetc","explode","sizeof","insertlast","sort","readline","deletenode","false","ftruncate","fclose","addtofile","readlistinlist"]}
+,
+{"uri":"file:///var/www/html/datastructure/palindrome.php","identifiers":["dqueue","readline","strlen","insertfirst","deletefront","deletelast"]}
 ,
 {"uri":"file:///var/www/html/datastructure/uolinklist.php","identifiers":["linkedlist","fopen","feof","fgetc","explode","sizeof","insertlast","readlist","count","readline","deletenode","fread","filesize","str_replace","fwrite","fclose"]}
 ,
-{"uri":"file:///var/www/html/datastructure/utility.php","identifiers":["listnode","$data","$next","__construct","null","readnode","linkedlist","$firstnode","$lastnode","$count","isempty","insertfirst","deletenode1","insertlast","readlist","deletenode","sort"]}
+{"uri":"file:///var/www/html/datastructure/utility.php","identifiers":["listnode","$data","$next","__construct","null","readnode","linkedlist","$firstnode","$lastnode","$count","isempty","insertfirst","deletenode1","insertlast","readlist","deletenode","sort","readlistinlist","addtofile","fopen","fwrite","fclose","getint","readline","filter_var","filter_validate_int","preg_match","stack","$top","$stackarray","push","pop","true","false","element","$value","queue","$front","$back","$totalammount","enqueue","dequeue","cash","node","$prev","dqueue","$size","deletefront","deletelast","getfront","getlast"]}
 ]

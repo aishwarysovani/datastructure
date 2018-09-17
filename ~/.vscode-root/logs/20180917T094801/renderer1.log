@@ -1,0 +1,5 @@
+[2018-09-17 09:48:06.453] [renderer1] [info] no standard startup: panel is active
+[2018-09-17 12:39:18.549] [renderer1] [error] Invalid start index: 3: Error: Invalid start index: 3
+    at e.splice (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:841:164)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:2108:932
+    at <anonymous>
